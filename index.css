@@ -1,0 +1,82 @@
+body {
+  margin: 25px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #313f52;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+input {
+  background: none;
+  border: 2px solid #b295ff;
+  width: 100px;
+  margin: 0 auto;
+  height: 60px;
+  border-radius: 3px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: #ffffff;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.header {
+  padding-top: 15px;
+  background: #6943ff;
+  height: 225px;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container {
+  background: #1f2937;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.container-hero {
+  background: #273549;
+  margin: 0;
+  margin: 25px;
+  color: #ccc1ff;
+  padding: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#meter-el,
+#volume-el,
+#mass-el,
+#error-el {
+  color: #f2f2f4;
+}
+
+#error-el {
+  font-weight: 700;
+  font-style: italic;
+}
